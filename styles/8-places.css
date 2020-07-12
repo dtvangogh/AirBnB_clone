@@ -14,10 +14,10 @@
 }
 
 .places article {
+	border: 1.15px solid #ff5a5f;
 	width: 390px;
 	margin: 20px;
 	padding: 20px;
-	border: 1.1px solid #ff5a5f;
 	border-radius: 4px;
 	justify-content: center;
 }
@@ -32,11 +32,11 @@
 .price_by_night {
 	padding: 1.5%;
 	color: #ff5a5f;
-	border: 4px solid #ff5a5f;
+	border: 3.5px solid #ff5a5f;
 	border-radius: 50%;
-	min-width: 60px;
-	height: 60px;
-	font-size: 27px;
+	min-width: 65px;
+	height: 65px;
+	font-size: 30px;
 }
 
 .price_by_night p {
@@ -50,12 +50,12 @@
 }
 
 .information {
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
 	padding-top: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	border-top: 1px solid #dddddd;
-	border-bottom: 1px solid #dddddd;
 }
 
 .max_guest {
