@@ -27,15 +27,17 @@
 	float: left;
 	line-height: 0.3;
 	height: 100%;
-	width: 25%;
+	width: 35%;
 	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
 }
 
 .amenities {
 	float: left;
 	line-height: 0.3;
 	height: 100%;
-	width: 25%;
+	width: 35%;
+	border-bottom: 1px solid #dddddd;
 }
 
 h3 {
