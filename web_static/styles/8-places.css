@@ -1,0 +1,124 @@
+.listing {
+	display: flex;
+	justify-content: space-between;
+}
+
+.myplaces {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.places h1 {
+	font-size: 30px;
+}
+
+.places article {
+	width: 390px;
+	margin: 20px;
+	padding: 20px;
+	border: 1.1px solid #ff5a5f;
+	border-radius: 4px;
+	justify-content: center;
+}
+
+.places article h2 {
+	font-size: 30px;
+	margin-top: auto;
+	margin-bottom: 50px;
+	margin-left: 30%;
+}
+
+.price_by_night {
+	margin-bottom: 15px;
+	padding: 2%;
+	color: #ff5a5f;
+	border: 3.5px solid #ff5a5f;
+	border-radius: 50%;
+	/** control size of red circle surrounding price */
+	min-width: 70px;
+	height: 70px;
+	font-size: 33px;
+}
+
+.price_by_night p {
+	margin-top: 21%;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.information p {
+	margin-top: 50px;
+}
+
+.information {
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-top: 2px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
+}
+
+.max_guest {
+	margin-left: 30px;
+	width: 100px;
+	background: url("../images/icon_group.png") no-repeat;
+}
+
+.number_rooms {
+	width: 100px;
+	background: url("../images/icon_bed.png") no-repeat;
+}
+
+.number_bathrooms {
+	width: 100px;
+	background: url("../images/icon_bath.png") no-repeat;
+}
+
+.user {
+	margin-top: 21px;
+	margin-bottom: 6px;
+	text-align: left;
+	font-size: 15px;
+}
+
+.amenities_inside {
+	margin-top: 21px;
+	margin-bottom: 6px;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+}
+
+.list_amenities {
+	margin-top: 21px;
+	margin-bottom: 6px;
+	margin-left: -20px;
+	text-align: left;
+	font-size: 15px;
+}
+
+.reviews {
+	margin-top: 21px;
+	margin-bottom: 6px;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+}
+
+.title_reviews {
+	margin-top: 21px;
+	margin-bottom: 20px;
+	margin-left: -40px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.title_reviews p {
+	margin-top: -15px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
