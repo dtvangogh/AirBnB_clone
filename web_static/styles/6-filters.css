@@ -64,12 +64,11 @@
 	border-radius: 4px; /* controls shape off drop menu */
 	z-index: 1;
 	position: relative;
-	align-content: center;
 }
 
 .locations:hover .popover {
 	display: block;
-	height: 250px;
+	height: 230px;
 }
 
 .amenities:hover .popover {
@@ -79,18 +78,15 @@
 
 .popover,
 .popover ul {
-	list-style-type: none;
+	list-style-type: none; /* removes bullets */
 	line-height: 1.55;
 	padding: 0;
-	align-content: center;
 }
 
 .popover h2 {
 	margin-bottom: 0px;
 	margin-top: 0px;
-	align-content: center;
-	padding-top: 20px;
-	padding-right: 10px;
+	padding-top: 20px; /* NOTE: controls how much space on top */
 }
 
 .popover li {
